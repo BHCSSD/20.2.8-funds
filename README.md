@@ -21,17 +21,17 @@ You are the captain of a team of students competing in a competition to raise fu
 Display on the canvas all three Arrays using a single `For` Loop so that each student’s name appears with their dollar amount and true/false value beside it.
 
 ## Step 2 - Next 60%
-Use separate for-loop algorithms for each of the following. Run them in `Draw()` and print out the result with a clear label.  
+Use separate for-loop algorithms for each of the following. Run them in `Draw()` and display the result with a clear label.  
 
-Make sure your printouts are well labeled:
+Make sure your lists are displayed well labeled:
 
-- **TOTAL and AVERAGE** - Calculate and print the total and average amount raised by your team. **(20%)**
+- **TOTAL and AVERAGE** - Calculate and display the total and average amount raised by your team. **(20%)**
 
 - **COUNTIF** - To attend the big party, students must have raised a minimum of $40. If you have more than 2 students who have not raised the minimum amount, your team must work a weekend bottle drive.
-  - **COUNTIF** the number of students who raised less than $40 and print that number.
-`IF` that number is greater than 2, print “Bottle Drive NOT required”.  `ELSE`, print  “Bottle Drive is this Saturday” **(20%)**
+  - **COUNTIF** the number of students who raised less than $40 and display that number.
+`IF` that number is greater than 2, display “Bottle Drive NOT required”.  `ELSE`, display  “Bottle Drive is this Saturday” **(20%)**
 
-- **HIGHEST** - Print the highest amount raised and that person’s name **(20%)**
+- **HIGHEST** - display the highest amount raised and that person’s name **(20%)**
 		Our highest fundraiser was Jack who raised $790;
 
 
@@ -39,15 +39,15 @@ Make sure your printouts are well labeled:
 
 
 - **SUMIF** - It is getting to crunch time. Those who have not turned in the forms will not be able to participate.
-  - Use our SUMIF algorithm to add the amounts raised but only by students whose forms are handed in. Then print this amount.    **(10%)**
+  - Use our SUMIF algorithm to add the amounts raised but only by students whose forms are handed in. Then display this amount.    **(10%)**
 		Fees raised by those with permission to attend: $250
     - Reminder: the SUMIF algorithm is the same as a total algorithm but with an IF statement inside.
 
-- **DOOR PRIZE** - Add the functionality so that every time I click the mouse, it randomly chooses a different team member and prints their name so we can give out a door prize.  In other words, when I click the mouse one name is printed.  It should be random so that each time I click the mouse, the name is re-randomized. It is ok if the same name is chosen twice. **(10%)**
+- **DOOR PRIZE** - Add the functionality so that every time I click the mouse, it randomly chooses a different team member and displays their name so we can give out a door prize.  In other words, when I click the mouse one name is displayed.  It should be random so that each time I click the mouse, the name is re-randomized. It is ok if the same name is chosen twice. **(10%)**
 	`[mouse is clicked] This door prize goes to:  Tim`
 	`[mouse is clicked] This door prize goes to:  Thom`
 	`[mouse is clicked] This door prize goes to:  Tam`
-    - Hint: This does NOT need a FOR loop.  It should take at most 2 lines of code. One to generate a random number and one to print the name.
+    - Hint: This does NOT need a FOR loop.  It should take at most 2 lines of code. One to generate a random number and one to display the name.
     - Hint #2:  The javascript RANDOM function returns a decimal number so you need to round down.  I recommend using `FLOOR`.  
 	`floor(random(0,6))`  will generate a 0, 1, 2, 3, 4 or 5 but not a 6.
 
